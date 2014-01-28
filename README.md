@@ -12,8 +12,8 @@ PublicKey authentication is also supported, password is only used if it is reque
     Use: python2 mssh.py <host_file> <cmd_file> [global_passwrd]
 
       -host_file syntax:
-                      <[user1@]IP1[:port1]> [password1]
-                      <[user2@]IP2[:port2]> [password2]
+                      <[user1@]IP1[|port1]> [password1]
+                      <[user2@]IP2[|port2]> [password2]
       -cmd_file syntax:
                       <cmd1>
                       <cmd2>

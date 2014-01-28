@@ -49,9 +49,11 @@ def help():
 	print "Use: %s <host_file> <cmd_file> [global_passwrd]" %sys.argv[0]
 	print ""
 	print "    -host_file syntax:"
-	print "                      <[user1@]IP1[:port1]> [password1]"
-	print "                      <[user2@]IP2[:port2]> [password2]"
+    print "                       john@7.6.5.4|2222 bestpassword"
+	print "                      <[user1@]IP1[|port1]> [password1]"
+	print "                      <[user2@]IP2[|port2]> [password2]"
 	print "    -cmd_file syntax:" 
+	print "                      cat /etc/passwd"
 	print "                      <cmd1>"
 	print "                      <cmd2>" 
 	sys.exit(1)
@@ -83,7 +85,7 @@ def main ():
 			password = gl_password 
 			host = hs[0]
 
-		hss = host.split(":")
+		hss = host.split("|")
 		if len(hss) > 1:
 			host = hss[0]
 			port = hss[1]
