@@ -49,7 +49,7 @@ def help():
 	print "Use: %s <host_file> <cmd_file> [global_passwrd]" %sys.argv[0]
 	print ""
 	print "    -host_file syntax:"
-    print "                       john@7.6.5.4|2222 bestpassword"
+	print "                       john@7.6.5.4|2222 bestpassword"
 	print "                      <[user1@]IP1[|port1]> [password1]"
 	print "                      <[user2@]IP2[|port2]> [password2]"
 	print "    -cmd_file syntax:" 
