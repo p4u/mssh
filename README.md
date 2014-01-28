@@ -1,6 +1,4 @@
--------------------------------
-         MultiSSH
--------------------------------
+==== MultiSSH ====
 
 Licence: GPLv3
 
@@ -24,13 +22,13 @@ Example:
 
     python2 main.py hosts cmds
 
-   Connecting 172.30.22.1 22
-     uname -a
-     Linux qMp2b64 3.3.8 #55 Tue Jan 21 10:45:04 EST 2014 i586 GNU/Linux date
-     Tue Jan 28 15:29:08 UTC 2014
+    Connecting 172.30.22.1 22
+      uname -a
+       Linux qMp2b64 3.3.8 #55 Tue Jan 21 10:45:04 EST 2014 i586 GNU/Linux date
+       Tue Jan 28 15:29:08 UTC 2014
 
-   Connecting root@10.1.9.1 22
-     uname -a
-     Linux GSalcolea46-578a 3.3.8 #251 Wed Nov 27 03:34:39 EST 2013 mips GNU/Linux date
-     Tue Jan 28 15:29:16 UTC 2014
+    Connecting root@10.1.9.1 22
+      uname -a
+       Linux GSalcolea46-578a 3.3.8 #251 Wed Nov 27 03:34:39 EST 2013 mips GNU/Linux date
+       Tue Jan 28 15:29:16 UTC 2014
 
